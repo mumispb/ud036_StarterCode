@@ -4,8 +4,8 @@ class Movie():
     Atributos:
         title: uma string do titulo do filme
         storyline: uma string do roteiro do filme
-        poster_image_url: uma string com a url para a imagem do poster do filme
-        trailer_youtube_url: uma string com a url do youtube para o trailer do filme
+        poster_image_url: uma string com a url para a imagem do poster
+        trailer_youtube_url: string com a url do youtube para o trailer
     """
 
     def __init__(self, movie_title, movie_storyline, poster_image,
